@@ -42,7 +42,10 @@
                 border:1px solid var(--text-color)
             }
 
-            .box__image{margin-right:30px}
+            .box__image{
+                margin-right:30px;
+                pointer-events: none;
+            }
 
             .box__image img{
                 display:block;
